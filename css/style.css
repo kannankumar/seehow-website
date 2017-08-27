@@ -436,8 +436,8 @@ footer{
   background: linear-gradient(to bottom, #290539 0%,#c146a1 38%,##000000 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#290539', endColorstr='##000000',GradientType=0 );
   */
-  position: absolute;
-  bottom: 0;
+  /*position: absolute;
+  bottom: 0;*/
   width:100%;
 
 }
