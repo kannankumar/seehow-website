@@ -645,5 +645,12 @@ footer{
       footer{
         bottom:inherit;
       }
+      .seehow-footer-logo {
+        float:none;
+        margin: 0 auto;
+      }
+      .footer-social {
+        float: none;
+      }
   }
   /******************/
