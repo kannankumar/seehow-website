@@ -624,6 +624,24 @@ footer{
       .news-strip{
         border-radius: 0px;
       }
+      .quote-wrap {
+        padding: 20px 0px;
+      }
+      .partner-quote-img {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+        float: none;
+        margin-right: auto;
+        margin-bottom: 10px;
+      }
+    .partner-details {
+      margin:inherit;
+    }
+      .partner-quote-strip span.quote {
+        font-size: 18px;
+      }
       footer{
         bottom:inherit;
       }
