@@ -292,6 +292,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     margin-top:20px;
     margin-bottom:20px;
 }
+
 #people-section .people-img{
     width:100px;
     height: 100px;
@@ -477,6 +478,13 @@ footer{
 .fp-tableCell {
     vertical-align: inherit;
 }
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  color:#cc401b;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #cc401b;
+}
 
 /* When scrolls away from background video, invert the colours for nav and navigation dots
 #fp-nav ul li a span, .fp-slidesNav ul li a span {
@@ -569,7 +577,27 @@ footer{
   }
 
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 767px) {
+    .section h1{
+      font-size: 28px;
+    }
+    .section h3{
+      font-size: 24px;
+      text-align: center;
+    }
+    #people-section .people-box{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    #people-section .person-details{
+      text-align: left;
+      margin-top: 20px;
+    }
+    #people-section .advisor-details{
+      /*text-align: right;*/
+      text-align:left;
+      margin-top: 20px;
+    }
       #photos {
         /* Prevent vertical gaps */
         line-height: 0;
@@ -589,6 +617,16 @@ footer{
       #photos .gallery-item:first-child{
           margin:0px 0 10px 0;
           position: relative;
+      }
+      .news-row.row, .news-strip .row{
+        margin-left:0px;
+        margin-right:0px;
+      }
+      .news-strip{
+        border-radius: 0px;
+      }
+      footer{
+        bottom:inherit;
       }
   }
   /******************/
