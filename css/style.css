@@ -101,18 +101,42 @@ section {
     left: 0px;
     z-index: 2;
 
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cedce7+0,596a72+100;Grey+3D+%231 */
+  background: rgb(206,220,231); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(206,220,231,1) 0%, rgba(89,106,114,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedce7', endColorstr='#596a72',GradientType=0 ); /* IE6-9 */
+
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,606c88+100 */
+  background: rgb(63,76,107); /* Old browsers */
+  background: -moz-linear-gradient(top, rgba(63,76,107,1) 0%, rgba(96,108,136,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(63,76,107,1) 0%,rgba(96,108,136,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(96,108,136,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#606c88',GradientType=0 ); /* IE6-9 */
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+0,3f4c6b+100;Blue+Grey+Flat */
+background: rgb(63,76,107); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(63,76,107,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(63,76,107,1) 0%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+
+
+    /*
     background: -moz-linear-gradient(top, #a80077 0%, #c146a1 38%, #b32525 100%);
     background: -webkit-linear-gradient(top, #a80077 0%,#c146a1 38%,#b32525 100%);
     background: linear-gradient(to bottom, #a80077 0%,#c146a1 38%,#b32525 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80077', endColorstr='#b32525',GradientType=0 );
-
+    */
 
     /*background: -moz-linear-gradient(top, #a80077 0%, #c146a1 38%, #b03ffc 100%);
     background: -webkit-linear-gradient(top, #a80077 0%,#c146a1 38%,#b03ffc 100%);
     background: linear-gradient(to bottom, #a80077 0%,#c146a1 38%,#b03ffc 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80077', endColorstr='#b03ffc',GradientType=0 );*/
 
-    opacity: 0.6;
+    opacity: 0.75;
 }
 
 /* Hiding video controls
