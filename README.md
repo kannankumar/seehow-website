@@ -5,22 +5,22 @@ TODO
 ------
 
 - __Overall__
-  - Exact red Color theme from app.
+  - [ ] Change Red Color to the one from app.
 
-  
+
 - __Video Banner__
-  - With Seehow (cut 1st 5 seconds, Aspect ratio of video to 16:9)
-  - Scroll down
+  - [ ] Change video (With Seehow) (Edit video: cut 1st 5 seconds, Aspect ratio of video to 16:9)
+  - [ ] Add Scroll down gif
 
 
 - __Partner__
-  - Actual quote
-  - Font-size of testimonial
+  - [ ] Add Actual quote from RX Academy coach
+  - [ ] Fix Font-size of testimonial
 
 
 - __Team__
-  - Dev to send LinkedIn links
-  - Members
+  - [ ] Dev to send LinkedIn links
+  - [ ] Update List of team Members
     - Dev
     - Saurabh
     - Nidhin K
@@ -28,17 +28,18 @@ TODO
     - ? (Linked to careers)
 
 
-- Press Release placement (sync on Monday)
+- [ ] Press Release placement (sync on Monday)
 
 - __Advisors__
- - Sid
- - Sid's dad
- - Sathish (RevvX)
+  - [ ] Update List of Advisors:
+    - Sid
+    - Sid's dad
+    - Sathish (RevvX)
 
 - __Press__
-  - Update Links to articles
+  - [ ] Update Links to articles
 
 
 - __Footer__
-  - Social links
-  - Medium icon change
+  - [ ] Update Social links
+  - [ ] Change Medium icon
