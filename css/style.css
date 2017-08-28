@@ -307,7 +307,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     /*padding-top:5px;*/
     /*border-top: 1px solid rgba(255,255,255,0.7);*/
 }
-
+.fa.fa-linkedin-square{
+  color:#3c3c3c;
+}
+.fa.fa-linkedin-square:hover{
+  color:black;
+}
 
 /******** PARTNER SECTION **********/
 #partner-section{
