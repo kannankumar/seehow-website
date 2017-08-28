@@ -415,12 +415,12 @@ box-shadow:0 0 20px 1px #ececec;
 
 
 
-.news-img:nth-child(1),.news-img:nth-child(2){
+.news-link:nth-child(1) .news-img, .news-link:nth-child(2) .news-img{
   height: 60px;
   padding: 5px 20px;
 }
 
-.news-img:nth-child(3){
+.news-link:nth-child(3) .news-img{
   height: 40px;
   padding: 5px 20px;
 }
