@@ -103,6 +103,10 @@ section {
   .navbar-default .navbar-nav>li>a {
     color: white;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white !important;
+    background-color: transparent;
+  }
 .navbar-brand {
     padding: 0px 35px;
     font-size: 18px;
@@ -164,7 +168,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 
 
     /*
-    background: -moz-linear-gradient(top, #a80077 0%, #c146a1 38%, #b32525 100%);
+    background: -moz-linear-gradient(top, #a80077 0%, #c146a1 38%, #100%);
     background: -webkit-linear-gradient(top, #a80077 0%,#c146a1 38%,#b32525 100%);
     background: linear-gradient(to bottom, #a80077 0%,#c146a1 38%,#b32525 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a80077', endColorstr='#b32525',GradientType=0 );

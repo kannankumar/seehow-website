@@ -8,6 +8,7 @@ $(document).ready(function() {
       navigation: true,
       menu:"#header",
       navigationTooltips: ['Home', 'The Product', 'Our Team','Partners'],
+      anchors:['home','product','team','partners'],
 			responsiveWidth: 767,
       onLeave: function(index, nextIndex, direction){
     		var leavingSection = $(this);
