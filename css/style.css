@@ -285,7 +285,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
         background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, gray), color-stop(0.5, white), color-stop(0.98, gray) );*/
 }
 .red_text{
-  color:#cc401b;
+  /*color:#cc401b;*/
+  color: #ea3d3d;
 }
 
 .header_underline{
@@ -472,7 +473,8 @@ box-shadow:0 0 20px 1px #ececec;
 
 /******* FOOTER ***/
 footer{
-  background:#B32525;
+  /*background:#B32525;*/
+  background: #ea3d3d;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a80077+0,c146a1+38,b03ffc+100 */
   /*
   background: -moz-linear-gradient(top, #290539 0%, #c146a1 38%, ##000000 100%);
