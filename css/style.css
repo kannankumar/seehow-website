@@ -353,6 +353,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 #accordion .panel-title a{
     text-decoration: none;
 }
+
+.ball-section-container{
+    padding-right: 100px;
+}
 .product-panel-title{
     margin-left:10px;
 }
