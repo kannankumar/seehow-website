@@ -348,7 +348,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     margin-right: 20px;
 }
 #accordion.panel-group .panel,#accordion2.panel-group .panel {
-    margin-bottom: -5px;
+    margin-bottom: -7px;
     border-radius: 4px;
     box-shadow: 0 0 29px 2px rgba(0,0,0,0.2);
 }
@@ -394,8 +394,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     cursor: pointer;
     padding: 20px 35px;
 }
+#product-section1 .product-panel-title,
 #product-section2 .product-panel-title {
     letter-spacing: 2px;
+    text-transform: uppercase;
 }
 .app-section-cards-container{
         height: 500px;  
