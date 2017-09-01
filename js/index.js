@@ -8,7 +8,7 @@ $(document).ready(function() {
       navigation: true,
       menu:"#header",
       navigationTooltips: ['Home','Smart Ball', 'SeeHow app', 'Our Team','Partners'],
-      anchors:['home','ball','app','team','partners'],
+      anchors:['home','product','app','team','partners'],
 			responsiveWidth: 767,
       onLeave: function(index, nextIndex, direction){
     		var leavingSection = $(this);
