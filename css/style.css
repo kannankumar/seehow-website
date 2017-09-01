@@ -342,6 +342,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 .panel-default>.panel-heading{
     background-color: #ea3d3d;  
     color: white;
+    padding: 20px 35px;
 }
 #accordion{
     margin-right: 20px;
@@ -352,17 +353,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     box-shadow: 0 0 29px 2px rgba(0,0,0,0.2);
 }
 
-#accordion.panel-group .panel:first-child, #accordion2.panel-group .panel:first-child,
-#accordion.panel-group .panel:last-child, #accordion2.panel-group .panel:last-child {
-    border-radius: 10px;
-}
 
-#accordion.panel-group .panel:first-child .panel-heading, #accordion2.panel-group .panel:first-child .panel-heading{
+#accordion.panel-group .panel:first-child, #accordion2.panel-group .panel:first-child,#accordion.panel-group .panel:first-child .panel-heading, #accordion2.panel-group .panel:first-child .panel-heading{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-#accordion.panel-group .panel:last-child .panel-heading, #accordion2.panel-group .panel:last-child .panel-heading{
+#accordion.panel-group .panel:last-child, #accordion2.panel-group .panel:last-child, #accordion.panel-group .panel:last-child .panel-heading, #accordion2.panel-group .panel:last-child .panel-heading{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
