@@ -1,0 +1,274 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+a {
+      text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+  /*font-size: 1.5vw;*/
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.btn-rounded{
+  border-radius: 30px;
+}
+.btn-transparent{
+  background: transparent;
+  border: 1px solid white;
+}
+#header{
+  height: 50px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  z-index: 9;
+  text-align: center;
+  color: #f2f2f2;
+}
+/* animated hamburger menu */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggle:hover {
+    background: transparent !important;
+  }
+
+  .navbar-toggle .icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .navbar-toggle .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .navbar-toggle .middle-bar {
+    opacity: 0;
+  }
+  .navbar-toggle .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+
+
+  .navbar-toggle.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  .navbar-toggle.collapsed .middle-bar {
+    opacity: 1;
+  }
+  .navbar-toggle.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+
+/* End of animated hamburger menu */
+.navbar-default {
+    padding:10px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #b5b5b5;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #b5b5b5 !important;
+    background-color: transparent;
+  }
+.navbar-brand {
+    padding: 0px 35px;
+    font-size: 18px;
+}
+.seehow-logo{
+  height: 40px;
+}
+
+/*** common section styles*/
+.fade_rule {
+
+        height: 1px;
+        background-color: #E6E6E6;
+        width: 12rem;
+        margin: 0 auto;
+        margin-top: 10px;
+        background-image: linear-gradient(left , #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -o-linear-gradient(left , #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -moz-linear-gradient(left ,  #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -webkit-linear-gradient(left ,  #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -ms-linear-gradient(left , #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, white), color-stop(0.5, lightgray), color-stop(0.98, white) );
+        /*background-image: linear-gradient(left , #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -o-linear-gradient(left , #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -moz-linear-gradient(left ,  #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -webkit-linear-gradient(left ,  #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -ms-linear-gradient(left , #E6E6E6 2%,white  50%, #E6E6E6 98%);
+        background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, gray), color-stop(0.5, white), color-stop(0.98, gray) );*/
+}
+.red_text{
+  /*color:#cc401b;*/
+  color: #ea3d3d;
+}
+
+.header_underline{
+  width:100px;
+  border-top:1px solid #222222;
+  align: left;
+}
+.centered-row{
+  text-align:center;
+}
+
+/****** PRESS ITEMS ********/
+span.newsroom{
+    font-family: 'Quicksand', sans-serif; 
+    padding: 0 10px;
+    margin: 15px auto;
+    background: #ea3d3d;
+    color: white;
+    font-size: 3rem;
+    line-height: 120%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#press-item-container{
+    margin-top:50px;
+}
+#press-item-container.container{
+    padding: 0px 40px;
+}
+#press-item-container .row{
+/*
+    margin-right: -30px;
+    margin-left: -30px;
+*/
+}
+.press-item{
+    min-height: 300px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    padding:30px;
+    margin:10px 10px 10px 0px;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+}
+.press-item-category{
+    color: #ea3d3d;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.press-item-date{
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: 600;
+}
+.press-item-title{
+        font-size: 24px;
+    margin-top: 60px;
+    display: inline-block;    
+    font-weight: bold;
+    color: #0f0f0f;
+}
+/****** NEWS STRIP *****/
+.news-row{
+  /*position: absolute;
+  bottom: 170px;
+  width: 100%;*/
+}
+.news-strip{
+  /*width: 70%;
+  margin:auto;*/
+  padding: 25px 0;
+  box-shadow: 0 10px 20px -5px rgba(121, 3, 3, 0.75);
+  background-color: white;
+}
+.news-strip .row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.news-img{
+  display: inline-block;
+  height: 50px;
+  padding: 5px 20px;
+  -webkit-filter: grayscale(100%) brightness(110%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%) brightness(110%);
+}
+
+
+
+.news-link:nth-child(1) .news-img, .news-link:nth-child(2) .news-img{
+  height: 60px;
+  padding: 5px 20px;
+}
+
+.news-link:nth-child(3) .news-img{
+  height: 40px;
+  padding: 5px 20px;
+}
+/******* FOOTER ***/
+footer{
+  /*background:#B32525;*/
+  background: #ea3d3d;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a80077+0,c146a1+38,b03ffc+100 */
+  /*
+  background: -moz-linear-gradient(top, #290539 0%, #c146a1 38%, ##000000 100%);
+  background: -webkit-linear-gradient(top, #290539 0%,#c146a1 38%,##000000 100%);
+  background: linear-gradient(to bottom, #290539 0%,#c146a1 38%,##000000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#290539', endColorstr='##000000',GradientType=0 );
+  */
+  /*position: absolute;
+  bottom: 0;*/
+  width:100%;
+
+}
+.footer-container{
+  /*height:200px;*/
+}
+.seehow-copy{
+  padding:20px;
+    height: 50px;
+    color:white;
+    font-size:12px;
+}
+.seehow-footer{
+  padding: 50px 20px 10px 20px;
+  border-bottom:1px solid rgba(255,255,255,0.2);
+}
+.footer-logo{
+  width:100px;
+}
+.footer-links,
+.footer-social{
+      padding: 10px 40px;
+}
+. footer-links li{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.5vw;
+}
+
+.footer-social{
+  float: left;
+}
+.seehow-footer-logo{
+  height: 30px;
+  float:left;
+}
+
+.fp-tableCell {
+    vertical-align: inherit;
+}
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  color:#cc401b;
+}
+
+#fp-nav ul li .fp-tooltip {
+  color: #cc401b;
+}      
