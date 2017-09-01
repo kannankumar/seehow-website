@@ -394,8 +394,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 
 #product-section2 .panel-heading{
     cursor: pointer;
+    padding: 20px 35px;
 }
-
 #product-section2 .product-panel-title {
     letter-spacing: 2px;
 }
