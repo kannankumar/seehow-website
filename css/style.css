@@ -4,6 +4,7 @@ body{
 }
 
 .btn-rounded{
+  -webkit-appearance: none !important;
   border-radius: 30px;
 }
 .btn-transparent{
@@ -763,6 +764,9 @@ footer{
     }
     .app-section-cards-container{
         height: auto;  
+    }
+    .app-carousel-container .fp-slidesContainer {    
+/*        width:90% !important;*/
     }
     .app-carousel-container .fp-slides {
         margin-top: 100px;
