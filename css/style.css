@@ -345,7 +345,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     padding: 20px 35px;
 }
 #accordion{
-    margin-right: 20px;
+/*    margin-right: 20px;*/
 }
 #accordion.panel-group .panel,#accordion2.panel-group .panel {
     margin-bottom: -7px;
@@ -368,7 +368,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 }
 
 .ball-section-container{
-    padding-right: 100px;
+    padding-right: 20px;
     height: 500px;
 }
 .product-panel-title{
@@ -757,8 +757,11 @@ footer{
           height: auto;
       }
     .ball-section-container{
-        padding-right: 0;;
+        padding-right: 0;
         height: 100%;
+    }
+    #accordion{
+        margin-right: 20px;
     }
     .app-section-cards-container{
         height: auto;  
