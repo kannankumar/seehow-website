@@ -372,6 +372,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 
 .ball-section-container{
     padding-right: 100px;
+    height: 500px;
 }
 .product-panel-title{
     margin-left:10px;
@@ -399,7 +400,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 #product-section2 .product-panel-title {
     letter-spacing: 2px;
 }
-
+.app-section-cards-container{
+        height: 500px;  
+}
 .app-carousel-container .fp-slidesContainer {    
     margin-top: -50px;
 }
@@ -750,6 +753,24 @@ footer{
     .section h3{
       font-size: 24px;
       text-align: center;
+    }
+    .ball-section-image{        
+          height: auto;
+      }
+    .ball-section-container{
+        padding-right: 0;;
+        height: 100%;
+    }
+    .app-section-cards-container{
+        height: auto;  
+    }
+    .app-carousel-container .fp-slides {
+        margin-top: 100px;
+    }
+    #carousel2{
+        float:none;
+        margin:auto;
+        margin-bottom: 50px;
     }
     #people-section .people-box{
         margin-top:10px;
