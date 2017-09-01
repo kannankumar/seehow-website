@@ -7,8 +7,8 @@ $(document).ready(function() {
     $('#fullpage').fullpage({
       navigation: true,
       menu:"#header",
-      navigationTooltips: ['Home', 'The Product', 'Our Team','Partners'],
-      anchors:['home','product','team','partners'],
+      navigationTooltips: ['Home','Smart Ball', 'SeeHow app', 'Our Team','Partners'],
+      anchors:['home','ball','app','team','partners'],
 			responsiveWidth: 767,
       onLeave: function(index, nextIndex, direction){
     		var leavingSection = $(this);
@@ -52,5 +52,20 @@ $(document).ready(function() {
   //         $('.navbar-default').css('background-color', 'transparent !important');
   //      }
   //  });
+    
+    $('.carousel').carousel({
+      interval: 2000
+    });
+//    $( "#headingOne" ).click(function() {
+//      $('.carousel').carousel(0);
+//    });
+//    $( "#headingTwo" ).click(function() {
+//      $('.carousel').carousel(1);
+//    });
+//    $( "#headingThree" ).click(function() {
+//      $('.carousel').carousel(2);
+//    });
+    
+    
 
 });

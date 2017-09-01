@@ -345,12 +345,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 #accordion{
     margin-right: 20px;
 }
-#accordion.panel-group .panel {
+#accordion.panel-group .panel,#accordion2.panel-group .panel {
     margin-bottom: -5px;
     border-radius: 4px;
     box-shadow: 0 0 29px 2px rgba(0,0,0,0.2);
 }
-#accordion .panel-title a{
+
+#accordion.panel-group .panel:first-child, #accordion2.panel-group .panel:first-child,
+#accordion.panel-group .panel:last-child, #accordion2.panel-group .panel:last-child {
+    border-radius: 10px;
+}
+
+#accordion.panel-group .panel:first-child .panel-heading, #accordion2.panel-group .panel:first-child .panel-heading{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#accordion.panel-group .panel:last-child .panel-heading, #accordion2.panel-group .panel:last-child .panel-heading{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#accordion .panel-title a,#accordion2 .panel-title a{
     text-decoration: none;
 }
 
@@ -375,6 +391,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     font-weight: bold;
 }
 
+
+#product-section2 .panel-heading{
+    cursor: pointer;
+}
+.app-carousel-container .fp-slidesContainer {    
+    margin-top: -50px;
+}
+.app-carousel-container .fp-slides {
+    overflow: visible !important;
+}
+#carousel2{
+    width: 250px !important;
+    height: 300px;
+    float: right;
+    margin-right: 200px;
+/*    box-shadow: 0 0 30px 2px rgba(0,0,0,0.5);*/
+}
+#carousel2 .fp-tableCell {
+    height:100% !important;
+}
+.carousel-indicators{
+    bottom: -40px;
+}
+.carousel-indicators li{
+    border: 1px solid #ea3d3d;
+}
+.carousel-indicators .active {
+    background-color: #ea3d3d;
+}
+
+/*
+#carousel .item img{
+    height: 200px;
+}
+*/
+
+.carousel-control.right {
+    margin-right: -50px;
+    background-image: none;
+    color: #ea3d3d;
+}
+
+.carousel-control.left {
+    margin-left: -50px;
+    background-image: none;
+    color: #ea3d3d;
+}
 
 /*** PEOPLE ***/
 #people-section{
