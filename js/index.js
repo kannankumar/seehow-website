@@ -9,7 +9,7 @@ $(document).ready(function() {
       menu:"#header",
       navigationTooltips: ['Home','Smart Ball', 'SeeHow app', 'Our Team','Partners'],
       anchors:['home','product','app','team','partners'],
-			responsiveWidth: 767,
+			responsiveWidth: 9999999,//767,
       onLeave: function(index, nextIndex, direction){
     		var leavingSection = $(this);
 

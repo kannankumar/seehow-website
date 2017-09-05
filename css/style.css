@@ -340,7 +340,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
 }
 
 .panel-default>.panel-heading{
-    background-color: #ea3d3d;  
+    background-color: #ea3d3d;
     color: white;
     padding: 20px 35px;
 }
@@ -400,9 +400,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', end
     text-transform: uppercase;
 }
 .app-section-cards-container{
-        height: 500px;  
+        height: 500px;
 }
-.app-carousel-container .fp-slidesContainer {    
+.app-carousel-container .fp-slidesContainer {
     margin-top: -50px;
 }
 .app-carousel-container .fp-slides {
@@ -560,16 +560,10 @@ box-shadow:0 0 20px 1px #ececec;
 }
 
 /****** NEWS STRIP *****/
-.news-row{
-  /*position: absolute;
-  bottom: 170px;
-  width: 100%;*/
-}
 .news-strip{
   /*width: 70%;
   margin:auto;*/
   padding: 25px 0;
-  border-radius: 10px;
   box-shadow: 0 10px 20px -5px rgba(121, 3, 3, 0.75);
   background-color: white;
 }
@@ -746,6 +740,12 @@ footer{
 
 
   @media only screen and (max-width: 767px) {
+    .container-fluid {
+    padding-right: 0px;
+     padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
     .section h1{
       font-size: 28px;
     }
@@ -753,7 +753,7 @@ footer{
       font-size: 24px;
       text-align: center;
     }
-    .ball-section-image{        
+    .ball-section-image{
           height: auto;
       }
     .ball-section-container{
@@ -764,9 +764,9 @@ footer{
         margin-right: 20px;
     }
     .app-section-cards-container{
-        height: auto;  
+        height: auto;
     }
-    .app-carousel-container .fp-slidesContainer {    
+    .app-carousel-container .fp-slidesContainer {
 /*        width:90% !important;*/
     }
     .app-carousel-container .fp-slides {
@@ -810,9 +810,18 @@ footer{
           margin:0px 0 10px 0;
           position: relative;
       }
-      .seehow-copy.row, .news-row.row, .news-strip .row{
+      /*.seehow-copy.row,
+      .news-row.row{
         margin-left:0px;
-        margin-right:0px;
+        margin-right:0px !important;
+      }
+      .news-strip .row{
+        margin-left:0px;
+        margin-right:0px !important;
+      }*/
+      .row{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
       }
       .news-strip{
         border-radius: 0px;

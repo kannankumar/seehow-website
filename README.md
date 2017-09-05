@@ -5,7 +5,7 @@ TODO
 ------
 - __New Change Requests__
   - [x] Turn off carousel
-  - [ ] Remove page to page transitions
+  - [x] Remove page to page transitions
   - [ ] Remove Footer section navigation dot
 
 - __Site Optimizations__
