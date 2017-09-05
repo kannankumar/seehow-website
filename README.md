@@ -3,43 +3,41 @@ Seehow website
 
 TODO
 ------
+- __New Change Requests__
+  - [ ] Turn off carousel
+  - [ ] Remove page to page transitions
+  - [ ] Remove Footer section navigation dot
 
-- __Overall__
-  - [ ] Change Red Color to the one from app.
+- __Site Optimizations__
+  - [ ] Caching of reusable assets
+  - [ ] Minify code files
+  - [ ] Compress image files
 
+- __Responsiveness__
+  - [ ] optimize for iPad (tablets)
+  - [ ] optimize for iPhone
 
 - __Video Banner__
-  - [ ] Change video (With Seehow) (Edit video: cut 1st 5 seconds, Aspect ratio of video to 16:9)
+  - [ ] Change video (With Seehow) (Edit video: cut 1st 5 seconds, crop video with aspect ratio of video as 16:9)
   - [ ] Add Scroll down gif
 
+- __Team__
+  - [x] Dev to send LinkedIn links
+  - [x] Update List of team Members
+  - [x] Update List of Advisors:
 
 - __Partner__
-  - [ ] Add Actual quote from RX Academy coach
-  - [ ] Fix Font-size of testimonial
-
-
-- __Team__
-  - [ ] Dev to send LinkedIn links
-  - [ ] Update List of team Members
-    - Dev
-    - Saurabh
-    - Nidhin K
-    - Abhijit
-    - ? (Linked to careers)
-
-
-- [ ] Press Release placement (sync on Monday)
-
-- __Advisors__
-  - [ ] Update List of Advisors:
-    - Sid
-    - Sid's dad
-    - Sathish (RevvX)
+    - [x] Add Actual quote from RX Academy coach
+    - [x] Fix Font-size of testimonial
 
 - __Press__
-  - [ ] Update Links to articles
+  - [x] Newsroom Section + Press Release Article
+  - [x] Update Links to articles
 
 
 - __Footer__
-  - [ ] Update Social links
+  - [x] Update Social links
   - [ ] Change Medium icon
+
+- __Misc__
+  - [x] Change Red Color to the one from app.
