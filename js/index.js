@@ -40,32 +40,4 @@ $(document).ready(function() {
         }
     	}
     });
-
-  //  var scroll_start = 0;
-  //  var startchange = $('#product-section');
-  //  var offset = startchange.offset();
-  //  $(document).scroll(function() {
-  //     scroll_start = $(this).scrollTop();
-  //     if(scroll_start > offset.top) {
-  //         $('.navbar-default').css('background-color', '#f0f0f0 !important');
-  //      } else {
-  //         $('.navbar-default').css('background-color', 'transparent !important');
-  //      }
-  //  });
-    
-    $('.carousel').carousel({
-      interval: 2000
-    });
-//    $( "#headingOne" ).click(function() {
-//      $('.carousel').carousel(0);
-//    });
-//    $( "#headingTwo" ).click(function() {
-//      $('.carousel').carousel(1);
-//    });
-//    $( "#headingThree" ).click(function() {
-//      $('.carousel').carousel(2);
-//    });
-    
-    
-
 });
